@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+
+{% block title %}
+About
+{% endblock %}
+
+        {% block content%}
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>About Us</title>
+            <style>
+                body {
+                    font-family: 'Arial', sans-serif;
+                    background-color: #eef2f3;
+                    color: #333;
+                    margin: 0;
+                    padding: 20px;
+                }
+                .about-container {
+                    background-color: #ffffff;
+                    border-radius: 10px;
+                    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+                    padding: 40px;
+                    max-width: 800px;
+                    margin: auto;
+                    text-align: center;
+                }
+                h1 {
+                    font-size: 2.5em;
+                    color: #2c3e50;
+                    margin-bottom: 20px;
+                }
+                h2 {
+                    font-size: 1.8em;
+                    color: #16a085;
+                    margin: 15px 0;
+                }
+                p {
+                    font-size: 1.1em;
+                    line-height: 1.6;
+                    margin: 15px 0;
+                    color: #555;
+                }
+                .highlight {
+                    color: #e74c3c;
+                    font-weight: bold;
+                }
+                .mission {
+                    background-color: #f9f9f9;
+                    padding: 20px;
+                    border-left: 5px solid #16a085;
+                    margin: 20px 0;
+                }
+                .team {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    margin-top: 30px;
+                }
+                .team-member {
+                    background: #ecf0f1;
+                    border-radius: 10px;
+                    padding: 20px;
+                    margin: 10px;
+                    width: 200px;
+                    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                }
+                .team-member img {
+                    border-radius: 50%;
+                    width: 100px;
+                    height: 100px;
+                }
+            </style>
+        </head>
+        <body>
+        
+        <div class="about-container">
+            <h1>About Us</h1>
+            <h2>Your Event, Our Passion</h2>
+            <p>At <span class="highlight">TVK Management services</span>, we believe every event is a unique story waiting to be told. With a blend of creativity, precision, and heart, we turn your visions into unforgettable experiences.</p>
+            
+            <div class="mission">
+                <h2>Our Mission</h2>
+                <p>To deliver exceptional event management services that exceed our clients' expectations while creating lasting memories.</p>
+            </div>
+            
+            <h2>Why Choose Us?</h2>
+            <p>Our dedicated team of professionals brings years of experience and a touch of magic to every event. From corporate gatherings to weddings, we handle it all with style!</p>
+            
+            <h2>Meet Our Team</h2>
+            <div class="team">
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/100" alt="Team Member 1">
+                    <h3>Jane Doe</h3>
+                    <p>Event Coordinator</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/100" alt="Team Member 2">
+                    <h3>John Smith</h3>
+                    <p>Creative Director</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/100" alt="Team Member 3">
+                    <h3>Emily Johnson</h3>
+                    <p>Logistics Manager</p>
+                </div>
+            </div>
+        </div>
+        
+        </body>
+        </html>
+        
+        {% endblock %}
